@@ -6,19 +6,17 @@ Tesseract 3, which is stable version till date can be used to whitelist characte
 
 To fetch data I have used tesseract 3 for numerical and categorical values and tesseract 4 for names.
 
-There were many ways to extract data from electoral roll. One of them would be to extract text of complete image at once and clean the data later. This method, although fast, it is very tedious to clean afterwords. Then I used the fact that in electoral roll all the information have set pattern and are uniformly divided to my advantage.
-
-There were 2 types of pattern in Electoral data in a ward, I'm considering only the first one:
+There were 2 types of pattern in Electoral data in a ward, I'm considering only the first one for extraction:
 
 1)Front Page
 2)Electoral voters data
 1. Front Page
 Extracting data from front page was simple as all the data needed to be extracted were in one place. Information we extracted were
 
-Vidhan Sabha
-Part Number
-Main Town
-Polling Station name
-Male count
-Female count
-Total
+1: Vidhan Sabha
+2: Part Number
+3: Main Town
+4: Polling Station name
+5: Male count
+6: Female count
+7: Total
